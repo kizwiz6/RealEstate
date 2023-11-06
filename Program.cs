@@ -25,7 +25,7 @@
             {
                 if (re.City == filterCity)
                 {
-                    Console.WriteLine(re.Street + " " + re.RoomsCount + " " + re.Price + " £");
+                    Console.WriteLine($"{re.Street} {re.RoomsCount} £{re.Price}");
                 }
             }
         }
